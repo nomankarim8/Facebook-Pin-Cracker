@@ -4,7 +4,7 @@
     use of this program.
 """
 
-import urllib.parse  # urllib is separated into multiple modules in Python 3
+import urllib.parse
 
 import itertools
 from selenium import webdriver
