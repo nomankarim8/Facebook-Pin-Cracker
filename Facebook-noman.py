@@ -39,7 +39,7 @@ class FacebookCracker(object):
         WebDriverWait(driver, 7)
         
         # Selects radio element for phone -- if phone is not
-        # connected it will select email and this will not work
+
         radElement = driver.find_element("id", "u_0_1")
         radElement.click()
         WebDriverWait(driver, 7)
