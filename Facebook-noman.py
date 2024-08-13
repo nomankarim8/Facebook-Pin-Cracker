@@ -49,7 +49,7 @@ class FacebookCracker(object):
         btnElement2.click()
         WebDriverWait(driver, 9)
         
-        # Finds the input element
+
         inputElement2 = driver.find_element("class name", "inputtext")
         
         # List that holds starter lists to find permutations for
