@@ -52,7 +52,7 @@ class FacebookCracker(object):
 
         inputElement2 = driver.find_element("class name", "inputtext")
         
-        # List that holds starter lists to find permutations for
+
         numberPerms = [['0', '1', '2', '3', '4', '5'],
                        ['1', '2', '3', '4', '5', '6'],
                        ['2', '3', '4', '5', '6', '7'],
