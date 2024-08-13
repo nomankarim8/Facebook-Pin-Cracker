@@ -21,7 +21,7 @@ class FacebookCracker(object):
     def InitFacebook(self, fname):
 
         e = 0
-        # Initializing selenium web driver
+
         driver = webdriver.Firefox()
         driver.get('https://www.facebook.com/login/identify?ctx=recover')
         
