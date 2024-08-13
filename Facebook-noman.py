@@ -33,7 +33,7 @@ class FacebookCracker(object):
 
         inputElement.send_keys(Keys.ENTER)
         
-        # Clicks button to select person -- Unless specified otherwise, will select first person
+
         btnElement = driver.find_element("css selector", "a.uiButton")
         btnElement.click()
         WebDriverWait(driver, 7)
