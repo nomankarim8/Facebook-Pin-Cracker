@@ -73,6 +73,6 @@ class FacebookCracker(object):
                 inputElement3.send_keys(theStr)
                 inputElement3.send_keys(Keys.ENTER)
 
-# Initializing class
+
 if __name__ == '__main__':
     fbook = FacebookCracker()
