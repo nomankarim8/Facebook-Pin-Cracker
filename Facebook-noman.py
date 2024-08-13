@@ -19,7 +19,7 @@ class FacebookCracker(object):
         self.InitFacebook('Email or Full Name, or phone number')
 
     def InitFacebook(self, fname):
-        # Setting up an index for later
+
         e = 0
         # Initializing selenium web driver
         driver = webdriver.Firefox()
