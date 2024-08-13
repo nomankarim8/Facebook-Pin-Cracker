@@ -38,7 +38,7 @@ class FacebookCracker(object):
         btnElement.click()
         WebDriverWait(driver, 7)
         
-        # Selects radio element for phone -- if phone is not
+
 
         radElement = driver.find_element("id", "u_0_1")
         radElement.click()
