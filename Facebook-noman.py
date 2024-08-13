@@ -3,6 +3,7 @@
     purposes, the developer is not responsible for any illegal or unauthorized
     use of this program.
 """
+
 import urllib.parse  # urllib is separated into multiple modules in Python 3
 import itertools
 from selenium import webdriver
