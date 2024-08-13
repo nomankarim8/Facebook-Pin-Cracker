@@ -5,6 +5,7 @@
 """
 
 import urllib.parse  # urllib is separated into multiple modules in Python 3
+
 import itertools
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
