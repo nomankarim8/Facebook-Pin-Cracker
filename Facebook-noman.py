@@ -44,7 +44,7 @@ class FacebookCracker(object):
         radElement.click()
         WebDriverWait(driver, 7)
         
-        # Presses enter on the "a"
+
         btnElement2 = driver.find_element("id", "u_0_2")
         btnElement2.click()
         WebDriverWait(driver, 9)
