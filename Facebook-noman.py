@@ -65,7 +65,7 @@ class FacebookCracker(object):
                        ['9', '0', '1', '2', '3', '4']]
 
 
-        # 6 digit combination
+
         for i in numberPerms:
             for b in itertools.permutations(i):
                 theStr = ''.join(map(str, b))
