@@ -30,7 +30,7 @@ class FacebookCracker(object):
         inputElement.send_keys(fname)
         WebDriverWait(driver, 4)
         
-        # Presses enter
+
         inputElement.send_keys(Keys.ENTER)
         
         # Clicks button to select person -- Unless specified otherwise, will select first person
