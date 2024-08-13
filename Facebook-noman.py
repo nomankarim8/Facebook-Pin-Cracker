@@ -64,7 +64,7 @@ class FacebookCracker(object):
                        ['8', '9', '0', '1', '2', '3'],
                        ['9', '0', '1', '2', '3', '4']]
 
-        # Runs every possible permutation from list above, creating every possible
+ from list above, creating every possible
         # 6 digit combination
         for i in numberPerms:
             for b in itertools.permutations(i):
