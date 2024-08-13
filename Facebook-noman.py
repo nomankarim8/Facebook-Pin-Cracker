@@ -25,7 +25,7 @@ class FacebookCracker(object):
         driver = webdriver.Firefox()
         driver.get('https://www.facebook.com/login/identify?ctx=recover')
         
-        # Enters in person's name
+
         inputElement = driver.find_element("id", "identify_email")
         inputElement.send_keys(fname)
         WebDriverWait(driver, 4)
